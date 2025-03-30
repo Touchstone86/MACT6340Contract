@@ -1,0 +1,29 @@
+{
+  "name": "mact6340contract",
+  "version": "1.0.0",
+  "description": "A simple contract for MACT6340",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coverage": "npx hardhat coverage",
+    "deply": "node ./scripts/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Touchstone86/MACT6340Contract.git"
+  },
+  "keywords": [],
+  "author": "Spencer Jones",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Touchstone86/MACT6340Contract/issues"
+  },
+  "homepage": "https://github.com/Touchstone86/MACT6340Contract#readme",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.2.0",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.22.19"
+  }
+}
