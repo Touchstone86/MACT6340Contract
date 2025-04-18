@@ -1,7 +1,7 @@
 const { expect, assert } = require("chai");
 const { ethers } = require("hardhat");
 
-describe("MACT6340Contract, async function () {
+describe("MACT6340Contract", async function () {
   let MACT6340ContractFactory;
   let MACT6340Contract;
   let args = {
