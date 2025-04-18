@@ -39,7 +39,7 @@ contract MACT6340Contract is
         string memory _base_uri,
         address _royaltyArtist,
         uint96 _royaltyBasis
-    ) ERC721("MACT6340Contract", "DGS") Ownable(msg.sender) {
+    ) ERC721("MACT6340Contract", "SNJ") Ownable(msg.sender) {
         i_mint_price = _mint_price;
         i_max_tokens = _max_tokens;
         s_base_uri = _base_uri;
